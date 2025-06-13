@@ -287,15 +287,15 @@
         setTimeout(() => {
             img.style.opacity = '1';
             img.style.transform = 'translate(-50%, -50%) scale(1)';
-        }, 100);
+        }, 50);
         setTimeout(() => {
             img.style.opacity = '0';
             img.style.transform = 'translate(-50%, -50%) scale(1.2)';
-        }, 3000);
+        }, 2500);
         setTimeout(() => {
             if (img === lastFireworkImg) lastFireworkImg = null;
             img.remove();
-        }, 3000);
+        }, 3200);
     }
 
     // Show back button and stop fireworks after 15 seconds
